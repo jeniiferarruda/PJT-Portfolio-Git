@@ -1,0 +1,196 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #8B008B;
+
+}
+.center{
+    text-align: center;
+}
+h1{
+    color: #8B008B;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px ;
+    text-align: center;
+
+}
+footer p{
+    margin-top: 2px;
+}
+.container{
+    padding: 0px 50px;
+}
+nav a:hover{
+    color: #8B008B;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 400px;
+    margin-top: -100px;
+    position: sticky;
+    bottom: 30%;
+   
+}
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.gallery-items{
+    width: 250px;
+    height: 300px;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px #0006;
+    flex-grow: 2;
+    transition: transform 5s linear;
+    padding: 0px 50px;
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    float: center;
+    margin-right: 10%;
+    display: center;
+}
+
+
+@media screen and (max-width:375px){
+    body{
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    header img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #8B008B;
+    
+    }
+    .center{
+        text-align: center;
+    }
+    h1{
+        color: #8B008B;
+    }
+    footer img{
+        width: 40px;
+        height: 40px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    footer a{
+        margin: 20px ;
+        text-align: center;
+    
+    }
+    footer p{
+        margin-top: 2px;
+    }
+    .container{
+        padding: 0px 50px;
+    }
+    nav a:hover{
+        color: #8B008B;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 80px;
+        margin-top: 0px;
+        position: sticky;
+        bottom: 0%;
+        font-size: 12px;
+        width: 100px;
+               
+    }
+    .texto2{
+        font-size: 12px;
+    }
+    .botao-enviar{
+        width: 50px;
+        color: #8B008B;
+        
+
+    }
+    .gallery-container{
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .gallery-items{
+        width: 250px;
+        height: 300px;
+        box-shadow: 2px 2px 2px #0006;
+        flex-grow: 2;
+        transition: transform 5s linear;
+        padding: 0px 50px;
+        border: 2px solid black;
+        
+
+    }
+    .gallery-items img{
+        width: 40%;
+        height: 30%;
+        object-fit: cover;
+        float: center;
+        margin-left: -200px;
+        display: center;
+    }
+    .texto{
+        width: 300px;
+        font-size: 10px;
+        margin-left: -150px;
+        
+        
+    }
+
+
+}
